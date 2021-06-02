@@ -60,7 +60,7 @@ The output of the container is:
 }
 ```
 
-For building nad running container locally, you need to execute the following commands (this creates the base image and the image with the model):
+For building nad running container locally, you need to clone the ```yolov5``` repository into the folder ```yolov5```. Then you need to execute the following commands (this creates the base image and the image with the model):
 ```
 docker build -f Dockerfile_nvidia -t klogar/nvidia .
 docker build --no-cache -t klogar/facemask:0.0.7 .
